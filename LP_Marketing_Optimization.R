@@ -1,6 +1,6 @@
 ## Code to solve LP
 
-install.package("linprog")
+install.packages("linprog")
 library(linprog)
  
 Max_ROI <- c(0.07, 0.03, 0.15, 0.12, 0.05) #Objective Function
